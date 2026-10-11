@@ -1,4 +1,5 @@
 {
+  "method": "full-sheet 8-connected flood extraction; islands within 12px beside their figure kept, none below the feet, none more than 4px above the head; key-magenta outline darkened, never deleted",
   "poses": {
     "idle": 2,
     "yes": 16,
@@ -8,140 +9,171 @@
   },
   "sheets": {
     "adam-starling": {
-      "source": "/Users/gecko/locoprowrestling/LoCoProAssetLibrary/characters/adam-starling/masters/commissioner-mic-sheet-bor16-transparent-v3.png",
+      "source": "/Users/gecko/locoprowrestling/newfightgame/generated-art/characters/production/adam-starling-commissioner-mic-sheet-bor16-transparent-v3-2026-07-11.png",
       "sha256": "239acb168603b6fee9b303ac6fc683a5ba427825c4f750c18fda62c6cf3b7afe",
       "frame": [
-        151,
+        125,
         198
-      ]
+      ],
+      "outlinePixelsDarkened": 2609
     },
     "anuka-gutierrez": {
-      "source": "/Users/gecko/locoprowrestling/LoCoProAssetLibrary/characters/anuka-gutierrez/masters/microphone-sheet-bor16-transparent-v1.png",
-      "sha256": "d4a8fbfeeb7b41af9caa832110adcee3ba30dccca1dbb9e5b1e616238a7f53fc",
+      "source": "/Users/gecko/locoprowrestling/newfightgame/generated-art/characters/production/microphone-roster/tas-anuka-gutierrez-mic-sheet-bor16-transparent-v1-2026-07-12.png",
+      "sha256": "4dd12b4ead87035b6241f3164a583b7ef648cebc8b46dc1824e94e3fbe4051ad",
       "frame": [
-        114,
-        182
-      ]
+        163,
+        254
+      ],
+      "outlinePixelsDarkened": 3661
     },
     "carter-cash": {
-      "source": "/Users/gecko/locoprowrestling/LoCoProAssetLibrary/characters/carter-cash/masters/microphone-sheet-bor16-transparent-v1.png",
-      "sha256": "bf948a1622b6dcfc3b36c7c395270f3093da22d3d7b63d40bf1795ca993fbbdc",
+      "source": "/Users/gecko/locoprowrestling/newfightgame/generated-art/characters/production/microphone-roster/tas-carter-cash-mic-sheet-bor16-transparent-v1-2026-07-12.png",
+      "sha256": "71e95c88f67313972fa21c2d755787b46f52071c42b34ced8f4ad57fcfede25c",
       "frame": [
-        108,
-        184
-      ]
+        153,
+        260
+      ],
+      "outlinePixelsDarkened": 3512
     },
     "codah-alexander": {
-      "source": "/Users/gecko/locoprowrestling/LoCoProAssetLibrary/characters/codah-alexander/masters/microphone-sheet-bor16-transparent-v1.png",
-      "sha256": "b4f30e75828a3b7afb5ded7deaa214a5ae6b7dcdce8304f71f265b20ce54fc9c",
+      "source": "/Users/gecko/locoprowrestling/newfightgame/generated-art/characters/production/microphone-roster/tas-codah-mic-sheet-bor16-transparent-v1-2026-07-12.png",
+      "sha256": "6507f0acc3d8aee898a80c94682b8525b5c5d35fbe0926b77df8091982505fa4",
       "frame": [
-        114,
-        176
-      ]
+        165,
+        264
+      ],
+      "outlinePixelsDarkened": 3357
     },
     "cody-devine": {
-      "source": "/Users/gecko/locoprowrestling/LoCoProAssetLibrary/characters/cody-devine/masters/microphone-sheet-bor16-transparent-v1.png",
-      "sha256": "dafb23a84052625d4e0632b9287318f302b7d217e119aa17471eca98f0662bd1",
+      "source": "/Users/gecko/locoprowrestling/newfightgame/generated-art/characters/production/microphone-roster/tas-cody-devine-mic-sheet-bor16-transparent-v1-2026-07-12.png",
+      "sha256": "7b140ba24fd98152176c87e430791547ea09308fad2b571a0c0bfd8fbac4165f",
       "frame": [
-        122,
-        194
-      ]
+        165,
+        260
+      ],
+      "outlinePixelsDarkened": 3123
     },
     "dean-mercer": {
-      "source": "/Users/gecko/locoprowrestling/LoCoProAssetLibrary/characters/dean-mercer/masters/microphone-sheet-bor16-transparent-v1.png",
-      "sha256": "b62cb987625bafdd3f4aeb2bbc40bbdcd984423209d2927d052020f0ffabed2d",
+      "source": "/Users/gecko/locoprowrestling/newfightgame/generated-art/characters/production/microphone-roster/tas-dean-mercer-mic-sheet-bor16-transparent-v1-2026-07-12.png",
+      "sha256": "97f044d34c894837cc4e6c2ef1945aba9458eb6fd534ae4f023f11d8fd59ca9e",
       "frame": [
-        124,
-        172
-      ]
+        182,
+        268
+      ],
+      "outlinePixelsDarkened": 3937
     },
     "erza-menagerie-tinker": {
-      "source": "/Users/gecko/locoprowrestling/LoCoProAssetLibrary/characters/erza-menagerie-tinker/masters/microphone-sheet-bor16-transparent-v1.png",
-      "sha256": "352ddac36aa3fb000d0e55d4d34bc7d3c6585c8a629f5cb66ae70ea0316d9430",
+      "source": "/Users/gecko/locoprowrestling/newfightgame/generated-art/characters/production/microphone-roster/tas-erza-mic-sheet-bor16-transparent-v1-2026-07-12.png",
+      "sha256": "77af0e3b4b12434900d6c073bb11a697c8a5e1a0577056a338a204e34ae8c54b",
       "frame": [
-        122,
-        180
-      ]
+        185,
+        266
+      ],
+      "outlinePixelsDarkened": 4166
     },
     "franky-gonzales": {
-      "source": "/Users/gecko/locoprowrestling/LoCoProAssetLibrary/characters/franky-gonzales/masters/microphone-sheet-bor16-transparent-v1.png",
-      "sha256": "817c2eae2e6c318a98b831b1abe665c27354ea81ac4a80e3c78b08ab6017d4e0",
+      "source": "/Users/gecko/locoprowrestling/newfightgame/generated-art/characters/production/microphone-roster/tas-franky-gonzales-mic-sheet-bor16-transparent-v1-2026-07-12.png",
+      "sha256": "f9089c8bfb1018c1afdc3f9d40698daab78ebbd5b42b6355ecaf609fdf2a31eb",
       "frame": [
-        118,
-        170
-      ]
+        166,
+        259
+      ],
+      "outlinePixelsDarkened": 3499
     },
     "hussy-steele": {
-      "source": "/Users/gecko/locoprowrestling/LoCoProAssetLibrary/characters/hussy-steele/masters/microphone-sheet-bor16-transparent-v1.png",
-      "sha256": "30c5429df2ef94ca9599a3f43aa77daad24261d7b36087c69b939df31fd51265",
+      "source": "/Users/gecko/locoprowrestling/newfightgame/generated-art/characters/production/microphone-roster/tas-hussy-mic-sheet-bor16-transparent-v1-2026-07-12.png",
+      "sha256": "d4b4c900d180676d218c9343c9effa29c14d2d0ae311c86e283dd1ddf1f016b4",
       "frame": [
-        128,
-        166
-      ]
+        196,
+        280
+      ],
+      "outlinePixelsDarkened": 3196
     },
     "johnny-crash": {
-      "source": "/Users/gecko/locoprowrestling/LoCoProAssetLibrary/characters/johnny-crash/masters/microphone-sheet-bor16-transparent-v1.png",
-      "sha256": "6baba0d85595329569af5737fa9bef9d7e932ea3e6e84e1762c0ffda79dc63b6",
+      "source": "/Users/gecko/locoprowrestling/newfightgame/generated-art/characters/production/microphone-roster/tas-johnny-crash-mic-sheet-bor16-transparent-v1-2026-07-12.png",
+      "sha256": "d0d133160f5b20e6ed777d70d3817f78ed6fd6c731c4d008b8954240b684873a",
       "frame": [
-        124,
-        150
-      ]
+        224,
+        252
+      ],
+      "outlinePixelsDarkened": 3705
     },
     "jt-staten": {
-      "source": "/Users/gecko/locoprowrestling/LoCoProAssetLibrary/characters/jt-staten/masters/microphone-sheet-bor16-transparent-v1.png",
-      "sha256": "c65d76148d9ad4b69f0ab73e212f6f4b5a0e464087a9cefca6f595b56b7cd14e",
+      "source": "/Users/gecko/locoprowrestling/newfightgame/generated-art/characters/production/microphone-roster/tas-jt-staten-mic-sheet-bor16-transparent-v1-2026-07-12.png",
+      "sha256": "e901519eb9ee33be2c26f3f281e510ae149822da88328a52b8787c479330ff80",
       "frame": [
-        124,
-        180
-      ]
+        190,
+        260
+      ],
+      "outlinePixelsDarkened": 3468
     },
     "major-glory": {
-      "source": "/Users/gecko/locoprowrestling/LoCoProAssetLibrary/characters/major-glory/masters/microphone-sheet-bor16-transparent-v1.png",
-      "sha256": "9a5e28a8ce7bd6c51ccb4319fac5a9ad25451cf09336aca2d7bae5a7b69b258c",
+      "source": "/Users/gecko/locoprowrestling/newfightgame/generated-art/characters/production/microphone-roster/tas-major-glory-mic-sheet-bor16-transparent-v1-2026-07-12.png",
+      "sha256": "de2ebab00495fef3205632c858b4bb3f9ca01b3f0734484f795e36e3c4030fc1",
       "frame": [
-        122,
-        156
-      ]
+        193,
+        250
+      ],
+      "outlinePixelsDarkened": 4071
     },
     "michael-avalon": {
-      "source": "/Users/gecko/locoprowrestling/LoCoProAssetLibrary/characters/michael-avalon/masters/microphone-sheet-bor16-transparent-v1.png",
-      "sha256": "3ea0e20a55d2d281a390e1a6483d41318f2311a5e9d68a772e88a4809b9dbefd",
+      "source": "/Users/gecko/locoprowrestling/newfightgame/generated-art/characters/production/microphone-roster/tas-avalon-mic-sheet-bor16-transparent-v1-2026-07-12.png",
+      "sha256": "ae01da278491d64eaa9d5eb79d4d86324f3dfe566bc8645047a2e7235653ff0d",
       "frame": [
-        132,
-        168
-      ]
+        186,
+        254
+      ],
+      "outlinePixelsDarkened": 3702
     },
     "morgana-lavey": {
-      "source": "/Users/gecko/locoprowrestling/LoCoProAssetLibrary/characters/morgana-lavey/masters/microphone-sheet-bor16-transparent-v1.png",
-      "sha256": "661590fe525b256ef046c278f363d839d6b84a0a9ad92ce365ffb44362599e89",
+      "source": "/Users/gecko/locoprowrestling/newfightgame/generated-art/characters/production/microphone-roster/tas-morgana-lavey-mic-sheet-bor16-transparent-v1-2026-07-12.png",
+      "sha256": "29a79704f5c9657531cc23938ed08c0495dc96a5144871cefcd44b3b3ca1ca67",
       "frame": [
-        126,
-        190
-      ]
-    },
-    "nicky-hyde": {
-      "source": "/Users/gecko/locoprowrestling/LoCoProAssetLibrary/characters/nicky-hyde/masters/final-word-mic-sheet-engine-v1-transparent.png",
-      "sha256": "1751633cbc910ef89787b62359a27da095de6d4318426ea9d5bae459d3d35924",
-      "frame": [
-        138,
-        198
-      ]
+        179,
+        248
+      ],
+      "outlinePixelsDarkened": 3493
     },
     "the-vigilante": {
-      "source": "/Users/gecko/locoprowrestling/LoCoProAssetLibrary/characters/the-vigilante/masters/microphone-sheet-bor16-transparent-v1.png",
-      "sha256": "8fb4b381baad381aedbc06c3c5acb89a936e442592b269e969967b3104bf5111",
+      "source": "/Users/gecko/locoprowrestling/newfightgame/generated-art/characters/production/microphone-roster/tas-vigilante-oai-mic-sheet-bor16-transparent-v1-2026-07-12.png",
+      "sha256": "9c8dd7128388b598c385d1fdd0c4f31623bf0228e2f7c4853fc479e62c491a08",
       "frame": [
-        126,
-        170
-      ]
+        190,
+        233
+      ],
+      "outlinePixelsDarkened": 3519
     },
     "zeak-gallent": {
-      "source": "/Users/gecko/locoprowrestling/LoCoProAssetLibrary/characters/zeak-gallent/masters/microphone-sheet-bor16-transparent-v1.png",
-      "sha256": "e72581a95ef01b664e14e352ff42049f040da5ea0f45c7bde95c7152cccb4d2d",
+      "source": "/Users/gecko/locoprowrestling/newfightgame/generated-art/characters/production/microphone-roster/tas-zeak-gallent-mic-sheet-bor16-transparent-v1-2026-07-12.png",
+      "sha256": "ef802d5e8e8411481320fda2bc1b05516df5328b903d41836285e84a38b71f26",
       "frame": [
-        126,
-        178
-      ]
+        197,
+        261
+      ],
+      "outlinePixelsDarkened": 3496
+    },
+    "nicky-hyde": {
+      "source": "/Users/gecko/locoprowrestling/LoCoProAssetLibrary/characters/nicky-hyde/masters/final-word-mic-sheet-transparent.png",
+      "sha256": "abea106c29aee21535c02960bedc0e0754dab1a60406122c55edad621ef07e39",
+      "frame": [
+        183,
+        238
+      ],
+      "outlinePixelsDarkened": 425
     }
+  },
+  "droppedIslands": {
+    "adam-starling-no": [
+      [
+        1,
+        26
+      ]
+    ],
+    "adam-starling-point": [
+      [
+        7,
+        26
+      ]
+    ]
   }
 }
