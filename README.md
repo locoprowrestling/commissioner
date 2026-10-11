@@ -55,11 +55,18 @@ screenshots to `output/` and fails on any console error or failed request.
 
 ## Art
 
-Sprites are cut from the approved 16-bit microphone sheets in
-`/Users/gecko/locoprowrestling/LoCoProAssetLibrary/characters/<slug>/masters/`
-by `scripts/extract-sprites.py` (five poses each, edge magenta defringed).
-Source paths and hashes are recorded in `assets/sprites/SOURCES.json`.
-Re-run after a library sheet changes:
+Sprites come from the un-normalized original microphone sheets in
+`/Users/gecko/locoprowrestling/newfightgame/generated-art/characters/production/microphone-roster/`
+(`*-transparent-v1-2026-07-12.png`), plus Adam Starling's v3 production sheet
+and Nicky Hyde's non-engine library master. Do not use the
+`LoCoProAssetLibrary` mic masters: they are the grid-normalized engine copies
+(`normalize-strict-mic-sheet.sh` crops every 256px cell), so any pose that
+crossed a cell line arrives cut. `scripts/extract-sprites.py` labels the whole
+sheet into 8-connected components and takes each pose whole (flood
+extraction, never a grid crop). It keeps nearby sparks, drops debris below the
+feet, and recolors key-magenta outline pixels instead of deleting them.
+Source paths, hashes and dropped islands are recorded in
+`assets/sprites/SOURCES.json`. Re-run after a source sheet changes:
 
 ```sh
 /usr/bin/python3 /Users/gecko/locoprowrestling/commissioner/scripts/extract-sprites.py
