@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#080b0a" />
+  <title>COMMISSIONER | A LoCo Pro Wrestling Swipe Game</title>
+  <meta name="description" content="You are Adam Starling, Commissioner of LoCo Pro Wrestling. Swipe left or right to survive until Consequences on Coffman Street. Twenty ways to lose. One way to win." />
+  <link rel="canonical" href="https://commissioner.locopro.pw/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="COMMISSIONER: can you survive running LoCo Pro Wrestling?" />
+  <meta property="og:description" content="Swipe left. Swipe right. Try not to get superkicked. A free LoCo Pro Wrestling game." />
+  <meta property="og:url" content="https://commissioner.locopro.pw/" />
+  <meta property="og:image" content="https://commissioner.locopro.pw/assets/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="COMMISSIONER, a LoCo Pro Wrestling swipe game, with pixel art wrestlers" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="COMMISSIONER: a LoCo Pro Wrestling swipe game" />
+  <meta name="twitter:description" content="Swipe left. Swipe right. Try not to get superkicked." />
+  <meta name="twitter:image" content="https://commissioner.locopro.pw/assets/og-image.png" />
+  <link rel="icon" href="favicon.ico" sizes="any" />
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Barlow+Condensed:wght@500;700;900&family=Press+Start+2P&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script type="module" src="ui.js"></script>
+</head>
+<body>
+  <div class="app" id="app">
+    <header class="hud" id="hud" hidden>
+      <div class="meters" id="meters"></div>
+      <div class="calendar"><span id="date">SEP 1, 2026</span><span class="sep">|</span><span><b id="days-left">145</b> days to Consequences</span></div>
+    </header>
+
+    <section class="screen title-screen" id="title-screen">
+      <img class="badge" src="assets/logo-badge.png" width="96" height="96" alt="LoCo Pro Wrestling" />
+      <p class="kicker">LoCo Pro Wrestling presents</p>
+      <h1 class="logo">COMMISSIONER</h1>
+      <p class="pitch">You are Adam Starling. You survived Last Stand. Now survive the roster, the bank, the crowd, and the Lodge until <strong>Consequences on Coffman Street</strong>.</p>
+      <img class="hero-sprite" src="assets/sprites/adam-starling-idle.png" width="151" height="198" alt="Adam Starling, pixel art, holding a microphone" />
+      <button class="big-button" id="start-button" type="button">Take the job</button>
+      <p class="how">Swipe the card left or right. Or use the buttons. Or your arrow keys. Keep all four meters out of the red <em>and</em> out of the stratosphere.</p>
+      <p class="records" id="records"></p>
+      <button class="link-button" id="gallery-button-title" type="button">Endings collected: <span id="ending-count-title">0</span>/<span class="ending-total">20</span></button>
+    </section>
+
+    <section class="screen play-screen" id="play-screen" hidden>
+      <p class="card-text" id="card-text" aria-live="polite"></p>
+      <div class="stage" id="stage">
+        <div class="card-under" aria-hidden="true"></div>
+        <div class="card" id="card">
+          <div class="choice-banner" id="choice-banner" aria-hidden="true"></div>
+          <div class="portrait" id="portrait"></div>
+          <div class="nameplate">
+            <span class="np-name" id="np-name"></span>
+            <span class="np-tag" id="np-tag"></span>
+          </div>
+        </div>
+      </div>
+      <div class="controls">
+        <button class="choice-button" id="left-button" type="button"><span class="arrow" aria-hidden="true">&#9664;</span><span class="btn-label" id="left-label"></span></button>
+        <button class="choice-button" id="right-button" type="button"><span class="btn-label" id="right-label"></span><span class="arrow" aria-hidden="true">&#9654;</span></button>
+      </div>
+    </section>
+
+    <section class="screen end-screen" id="end-screen" hidden>
+      <p class="kicker" id="end-kicker">Your reign is over</p>
+      <h2 class="end-title" id="end-title"></h2>
+      <div class="end-portrait" id="end-portrait"></div>
+      <p class="end-text" id="end-text"></p>
+      <p class="end-stats" id="end-stats"></p>
+      <div class="end-actions">
+        <button class="big-button" id="again-button" type="button">Run it back</button>
+        <button class="ghost-button" id="share-button" type="button">Share my reign</button>
+      </div>
+      <p class="share-status" id="share-status" aria-live="polite"></p>
+      <button class="link-button" id="gallery-button-end" type="button">Endings collected: <span id="ending-count-end">0</span>/<span class="ending-total">20</span></button>
+
+      <aside class="real-show" aria-labelledby="real-show-title">
+        <img src="assets/consequences-logo.png" width="320" height="160" alt="Consequences on Coffman Street" />
+        <h3 id="real-show-title">The real chaos is live.</h3>
+        <p>Sunday, January 24, 2027<br />Historic Elks Lodge Ballroom, Longmont, Colorado</p>
+        <a class="big-button gold" href="https://consequences.locopro.pw/" target="_blank" rel="noopener">Save the date</a>
+        <a class="ghost-button" href="https://www.patreon.com/LoCoProWrestling" target="_blank" rel="noopener">Keep LoCo weird on Patreon</a>
+      </aside>
+    </section>
+
+    <section class="screen gallery-screen" id="gallery-screen" hidden>
+      <h2>Endings</h2>
+      <p class="gallery-sub">Every way a Commissioner can go down. Collect them all.</p>
+      <ol class="gallery" id="gallery"></ol>
+      <button class="big-button" id="gallery-back" type="button">Back</button>
+    </section>
+
+    <footer class="foot">
+      <button class="icon-button" id="mute-button" type="button" aria-pressed="false" aria-label="Mute sound">&#128266;</button>
+      <span>A <a href="https://mainpage.locopro.pw/" target="_blank" rel="noopener">LoCo Pro Wrestling</a> game. Not canon. Probably.</span>
+    </footer>
+  </div>
+  <noscript><p class="noscript">COMMISSIONER needs JavaScript. The Commissioner apologizes. It was by design.</p></noscript>
+</body>
+</html>

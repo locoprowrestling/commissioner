@@ -1,0 +1,147 @@
+{
+  "poses": {
+    "idle": 2,
+    "yes": 16,
+    "no": 12,
+    "shock": 9,
+    "point": 5
+  },
+  "sheets": {
+    "adam-starling": {
+      "source": "/Users/gecko/locoprowrestling/LoCoProAssetLibrary/characters/adam-starling/masters/commissioner-mic-sheet-bor16-transparent-v3.png",
+      "sha256": "239acb168603b6fee9b303ac6fc683a5ba427825c4f750c18fda62c6cf3b7afe",
+      "frame": [
+        151,
+        198
+      ]
+    },
+    "anuka-gutierrez": {
+      "source": "/Users/gecko/locoprowrestling/LoCoProAssetLibrary/characters/anuka-gutierrez/masters/microphone-sheet-bor16-transparent-v1.png",
+      "sha256": "d4a8fbfeeb7b41af9caa832110adcee3ba30dccca1dbb9e5b1e616238a7f53fc",
+      "frame": [
+        114,
+        182
+      ]
+    },
+    "carter-cash": {
+      "source": "/Users/gecko/locoprowrestling/LoCoProAssetLibrary/characters/carter-cash/masters/microphone-sheet-bor16-transparent-v1.png",
+      "sha256": "bf948a1622b6dcfc3b36c7c395270f3093da22d3d7b63d40bf1795ca993fbbdc",
+      "frame": [
+        108,
+        184
+      ]
+    },
+    "codah-alexander": {
+      "source": "/Users/gecko/locoprowrestling/LoCoProAssetLibrary/characters/codah-alexander/masters/microphone-sheet-bor16-transparent-v1.png",
+      "sha256": "b4f30e75828a3b7afb5ded7deaa214a5ae6b7dcdce8304f71f265b20ce54fc9c",
+      "frame": [
+        114,
+        176
+      ]
+    },
+    "cody-devine": {
+      "source": "/Users/gecko/locoprowrestling/LoCoProAssetLibrary/characters/cody-devine/masters/microphone-sheet-bor16-transparent-v1.png",
+      "sha256": "dafb23a84052625d4e0632b9287318f302b7d217e119aa17471eca98f0662bd1",
+      "frame": [
+        122,
+        194
+      ]
+    },
+    "dean-mercer": {
+      "source": "/Users/gecko/locoprowrestling/LoCoProAssetLibrary/characters/dean-mercer/masters/microphone-sheet-bor16-transparent-v1.png",
+      "sha256": "b62cb987625bafdd3f4aeb2bbc40bbdcd984423209d2927d052020f0ffabed2d",
+      "frame": [
+        124,
+        172
+      ]
+    },
+    "erza-menagerie-tinker": {
+      "source": "/Users/gecko/locoprowrestling/LoCoProAssetLibrary/characters/erza-menagerie-tinker/masters/microphone-sheet-bor16-transparent-v1.png",
+      "sha256": "352ddac36aa3fb000d0e55d4d34bc7d3c6585c8a629f5cb66ae70ea0316d9430",
+      "frame": [
+        122,
+        180
+      ]
+    },
+    "franky-gonzales": {
+      "source": "/Users/gecko/locoprowrestling/LoCoProAssetLibrary/characters/franky-gonzales/masters/microphone-sheet-bor16-transparent-v1.png",
+      "sha256": "817c2eae2e6c318a98b831b1abe665c27354ea81ac4a80e3c78b08ab6017d4e0",
+      "frame": [
+        118,
+        170
+      ]
+    },
+    "hussy-steele": {
+      "source": "/Users/gecko/locoprowrestling/LoCoProAssetLibrary/characters/hussy-steele/masters/microphone-sheet-bor16-transparent-v1.png",
+      "sha256": "30c5429df2ef94ca9599a3f43aa77daad24261d7b36087c69b939df31fd51265",
+      "frame": [
+        128,
+        166
+      ]
+    },
+    "johnny-crash": {
+      "source": "/Users/gecko/locoprowrestling/LoCoProAssetLibrary/characters/johnny-crash/masters/microphone-sheet-bor16-transparent-v1.png",
+      "sha256": "6baba0d85595329569af5737fa9bef9d7e932ea3e6e84e1762c0ffda79dc63b6",
+      "frame": [
+        124,
+        150
+      ]
+    },
+    "jt-staten": {
+      "source": "/Users/gecko/locoprowrestling/LoCoProAssetLibrary/characters/jt-staten/masters/microphone-sheet-bor16-transparent-v1.png",
+      "sha256": "c65d76148d9ad4b69f0ab73e212f6f4b5a0e464087a9cefca6f595b56b7cd14e",
+      "frame": [
+        124,
+        180
+      ]
+    },
+    "major-glory": {
+      "source": "/Users/gecko/locoprowrestling/LoCoProAssetLibrary/characters/major-glory/masters/microphone-sheet-bor16-transparent-v1.png",
+      "sha256": "9a5e28a8ce7bd6c51ccb4319fac5a9ad25451cf09336aca2d7bae5a7b69b258c",
+      "frame": [
+        122,
+        156
+      ]
+    },
+    "michael-avalon": {
+      "source": "/Users/gecko/locoprowrestling/LoCoProAssetLibrary/characters/michael-avalon/masters/microphone-sheet-bor16-transparent-v1.png",
+      "sha256": "3ea0e20a55d2d281a390e1a6483d41318f2311a5e9d68a772e88a4809b9dbefd",
+      "frame": [
+        132,
+        168
+      ]
+    },
+    "morgana-lavey": {
+      "source": "/Users/gecko/locoprowrestling/LoCoProAssetLibrary/characters/morgana-lavey/masters/microphone-sheet-bor16-transparent-v1.png",
+      "sha256": "661590fe525b256ef046c278f363d839d6b84a0a9ad92ce365ffb44362599e89",
+      "frame": [
+        126,
+        190
+      ]
+    },
+    "nicky-hyde": {
+      "source": "/Users/gecko/locoprowrestling/LoCoProAssetLibrary/characters/nicky-hyde/masters/final-word-mic-sheet-engine-v1-transparent.png",
+      "sha256": "1751633cbc910ef89787b62359a27da095de6d4318426ea9d5bae459d3d35924",
+      "frame": [
+        138,
+        198
+      ]
+    },
+    "the-vigilante": {
+      "source": "/Users/gecko/locoprowrestling/LoCoProAssetLibrary/characters/the-vigilante/masters/microphone-sheet-bor16-transparent-v1.png",
+      "sha256": "8fb4b381baad381aedbc06c3c5acb89a936e442592b269e969967b3104bf5111",
+      "frame": [
+        126,
+        170
+      ]
+    },
+    "zeak-gallent": {
+      "source": "/Users/gecko/locoprowrestling/LoCoProAssetLibrary/characters/zeak-gallent/masters/microphone-sheet-bor16-transparent-v1.png",
+      "sha256": "e72581a95ef01b664e14e352ff42049f040da5ea0f45c7bde95c7152cccb4d2d",
+      "frame": [
+        126,
+        178
+      ]
+    }
+  }
+}

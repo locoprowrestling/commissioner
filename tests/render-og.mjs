@@ -1,0 +1,13 @@
+import { chromium } from "/Users/gecko/locoprowrestling/LoCoProGenFactory/animations/node_modules/playwright/index.mjs";
+import { pathToFileURL } from "node:url";
+import { join, dirname } from "node:path";
+import { fileURLToPath } from "node:url";
+const root = join(dirname(fileURLToPath(import.meta.url)), "..");
+const b = await chromium.launch({ channel: "chrome" });
+const p = await b.newPage({ viewport: { width: 1200, height: 630 } });
+await p.goto(pathToFileURL(join(root, "scripts/og.html")).href);
+await p.evaluate(() => document.fonts.ready);
+await p.waitForTimeout(400);
+await p.screenshot({ path: join(root, "assets/og-image.png") });
+await b.close();
+console.log("wrote assets/og-image.png");
